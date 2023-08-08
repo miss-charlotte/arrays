@@ -12,6 +12,7 @@ fun main ( ){
 
     //in a class, there are 5 students; Ivan, Aron, Nisah, Grace and Christine. Create an array
     val students = arrayOf("Ivan","Nisah", "Aron", "Grace", "Christine")
+    //print the result in alphabetical order
     val sort = students.sorted()
     for (name in sort) {
         println(name)
